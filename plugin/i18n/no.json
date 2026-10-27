@@ -1,0 +1,8 @@
+{
+  "portal.title": "Tilgang til utklippstavlen",
+  "portal.wantsClipboard": "%1 vil bruke utklippstavlen",
+  "portal.explanation": "Appen kan legge tekst på utklippstavlen og lese det andre apper kopierer. Den får ikke tilgang til tastatur, mus eller skjerm.",
+  "portal.deny": "Avslå",
+  "portal.alwaysAllow": "Tillat alltid",
+  "portal.allowOnce": "Tillat én gang"
+}

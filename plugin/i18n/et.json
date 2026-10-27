@@ -1,0 +1,8 @@
+{
+  "portal.title": "Juurdepääs lõikelauale",
+  "portal.wantsClipboard": "%1 soovib kasutada lõikelauda",
+  "portal.explanation": "See saab panna lõikelauale teksti ja lugeda, mida teised rakendused kopeerivad. Juurdepääsu klaviatuurile, hiirele ega ekraanile ei anta.",
+  "portal.deny": "Keela",
+  "portal.alwaysAllow": "Luba alati",
+  "portal.allowOnce": "Luba üks kord"
+}

@@ -1,0 +1,12 @@
+[Unit]
+Description=Portal service (Omarchy: clipboard for sandboxed apps)
+PartOf=graphical-session.target
+After=graphical-session.target
+ConditionEnvironment=WAYLAND_DISPLAY
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.impl.portal.desktop.omarchy
+ExecStart=/usr/lib/xdg-desktop-portal-omarchy
+Restart=on-failure
+Slice=session.slice

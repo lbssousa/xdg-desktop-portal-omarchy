@@ -1,0 +1,8 @@
+{
+  "portal.title": "Pano erişimi",
+  "portal.wantsClipboard": "%1 panoyu kullanmak istiyor",
+  "portal.explanation": "Panoya metin koyabilecek ve diğer uygulamaların kopyaladıklarını okuyabilecek. Klavye, fare veya ekrana erişim verilmez.",
+  "portal.deny": "Reddet",
+  "portal.alwaysAllow": "Her zaman izin ver",
+  "portal.allowOnce": "Bir kez izin ver"
+}

@@ -1,0 +1,8 @@
+{
+  "portal.title": "Aðgangur að klippiborði",
+  "portal.wantsClipboard": "%1 vill nota klippiborðið",
+  "portal.explanation": "Forritið getur sett texta á klippiborðið og lesið það sem önnur forrit afrita. Enginn aðgangur að lyklaborði, mús eða skjá er veittur.",
+  "portal.deny": "Hafna",
+  "portal.alwaysAllow": "Leyfa alltaf",
+  "portal.allowOnce": "Leyfa einu sinni"
+}

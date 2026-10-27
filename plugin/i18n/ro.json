@@ -1,0 +1,8 @@
+{
+  "portal.title": "Acces la clipboard",
+  "portal.wantsClipboard": "%1 vrea să folosească clipboardul",
+  "portal.explanation": "Va putea pune text în clipboard și citi ce copiază alte aplicații. Nu primește acces la tastatură, mouse sau ecran.",
+  "portal.deny": "Refuză",
+  "portal.alwaysAllow": "Permite întotdeauna",
+  "portal.allowOnce": "Permite o dată"
+}

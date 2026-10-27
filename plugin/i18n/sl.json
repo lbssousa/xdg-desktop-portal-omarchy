@@ -1,0 +1,8 @@
+{
+  "portal.title": "Dostop do odložišča",
+  "portal.wantsClipboard": "%1 želi uporabljati odložišče",
+  "portal.explanation": "Lahko bo postavljal besedilo v odložišče in bral, kar kopirajo druge aplikacije. Dostopa do tipkovnice, miške ali zaslona ne dobi.",
+  "portal.deny": "Zavrni",
+  "portal.alwaysAllow": "Vedno dovoli",
+  "portal.allowOnce": "Dovoli enkrat"
+}

@@ -1,0 +1,8 @@
+{
+  "portal.title": "Dostęp do schowka",
+  "portal.wantsClipboard": "%1 chce używać schowka",
+  "portal.explanation": "Aplikacja będzie mogła umieszczać tekst w schowku i odczytywać to, co kopiują inne aplikacje. Nie otrzyma dostępu do klawiatury, myszy ani ekranu.",
+  "portal.deny": "Odmów",
+  "portal.alwaysAllow": "Zawsze zezwalaj",
+  "portal.allowOnce": "Zezwól raz"
+}

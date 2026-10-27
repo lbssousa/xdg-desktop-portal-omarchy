@@ -1,0 +1,4 @@
+/target
+/packaging/*
+!/packaging/PKGBUILD
+!/packaging/xdg-desktop-portal-omarchy.install

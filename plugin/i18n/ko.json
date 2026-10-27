@@ -1,0 +1,8 @@
+{
+  "portal.title": "클립보드 접근",
+  "portal.wantsClipboard": "%1에서 클립보드를 사용하려고 합니다",
+  "portal.explanation": "클립보드에 텍스트를 넣고 다른 앱이 복사한 내용을 읽을 수 있게 됩니다. 키보드, 마우스, 화면에는 접근할 수 없습니다.",
+  "portal.deny": "거부",
+  "portal.alwaysAllow": "항상 허용",
+  "portal.allowOnce": "한 번 허용"
+}

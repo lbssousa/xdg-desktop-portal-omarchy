@@ -1,0 +1,8 @@
+{
+  "portal.title": "Accés al porta-retalls",
+  "portal.wantsClipboard": "%1 vol utilitzar el porta-retalls",
+  "portal.explanation": "Podrà posar text al porta-retalls i llegir el que copiïn altres aplicacions. No se li dona accés al teclat, al ratolí ni a la pantalla.",
+  "portal.deny": "Denega",
+  "portal.alwaysAllow": "Permet sempre",
+  "portal.allowOnce": "Permet una vegada"
+}

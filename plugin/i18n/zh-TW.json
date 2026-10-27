@@ -1,0 +1,8 @@
+{
+  "portal.title": "剪貼簿存取",
+  "portal.wantsClipboard": "%1 想要使用剪貼簿",
+  "portal.explanation": "它將能把文字放入剪貼簿，並讀取其他應用程式複製的內容。不會取得鍵盤、滑鼠或螢幕的存取權限。",
+  "portal.deny": "拒絕",
+  "portal.alwaysAllow": "一律允許",
+  "portal.allowOnce": "允許一次"
+}

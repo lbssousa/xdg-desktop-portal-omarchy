@@ -1,0 +1,49 @@
+# Maintainer: Laércio de Sousa <laercio@sivali.sousa.nom.br>
+#
+# Builds from the repository this PKGBUILD lives in (the parent of
+# $startdir), so `makepkg` in packaging/ packages the working tree as is.
+
+pkgname=xdg-desktop-portal-omarchy
+pkgver=0.1.0
+pkgrel=1
+pkgdesc='xdg-desktop-portal backend for Omarchy: the clipboard for sandboxed apps on Hyprland, asked in an omarchy-shell dialog'
+arch=(x86_64 aarch64)
+url='https://github.com/lbssousa/xdg-desktop-portal-omarchy'
+license=(MIT)
+depends=(gcc-libs glibc wayland xdg-desktop-portal)
+makedepends=(cargo)
+optdepends=('omarchy: the shell dialog (without it, every request is refused)')
+options=(!debug)
+install=xdg-desktop-portal-omarchy.install
+
+_srcroot() { cd "$startdir/.."; }
+
+prepare() {
+  _srcroot
+  cargo fetch --locked --target "$(rustc --print host-tuple)"
+}
+
+build() {
+  _srcroot
+  CARGO_TARGET_DIR="$srcdir/target" cargo build --frozen --release
+}
+
+check() {
+  _srcroot
+  CARGO_TARGET_DIR="$srcdir/target" cargo test --frozen --release
+}
+
+package() {
+  _srcroot
+  install -Dm755 "$srcdir/target/release/xdg-desktop-portal-omarchy" "$pkgdir/usr/lib/xdg-desktop-portal-omarchy"
+  install -Dm644 data/omarchy.portal "$pkgdir/usr/share/xdg-desktop-portal/portals/omarchy.portal"
+  install -Dm644 data/org.freedesktop.impl.portal.desktop.omarchy.service \
+    "$pkgdir/usr/share/dbus-1/services/org.freedesktop.impl.portal.desktop.omarchy.service"
+  install -Dm644 data/xdg-desktop-portal-omarchy.service \
+    "$pkgdir/usr/lib/systemd/user/xdg-desktop-portal-omarchy.service"
+  install -Dm644 -t "$pkgdir/usr/share/xdg-desktop-portal-omarchy/plugin" plugin/manifest.json plugin/*.qml
+  install -Dm644 -t "$pkgdir/usr/share/xdg-desktop-portal-omarchy/plugin/i18n" plugin/i18n/*.json
+  install -Dm644 data/config.toml "$pkgdir/usr/share/doc/$pkgname/config.toml.example"
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+  install -Dm644 README.md "$pkgdir/usr/share/doc/$pkgname/README.md"
+}

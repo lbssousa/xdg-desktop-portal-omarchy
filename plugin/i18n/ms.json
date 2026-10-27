@@ -1,0 +1,8 @@
+{
+  "portal.title": "Akses papan keratan",
+  "portal.wantsClipboard": "%1 mahu menggunakan papan keratan",
+  "portal.explanation": "Aplikasi ini boleh meletakkan teks pada papan keratan dan membaca apa yang disalin oleh aplikasi lain. Tiada akses kepada papan kekunci, tetikus atau skrin diberikan.",
+  "portal.deny": "Tolak",
+  "portal.alwaysAllow": "Sentiasa benarkan",
+  "portal.allowOnce": "Benarkan sekali"
+}

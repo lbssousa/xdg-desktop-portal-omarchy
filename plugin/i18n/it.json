@@ -1,0 +1,8 @@
+{
+  "portal.title": "Accesso agli appunti",
+  "portal.wantsClipboard": "%1 vuole usare gli appunti",
+  "portal.explanation": "Potrà inserire testo negli appunti e leggere ciò che copiano le altre app. Non riceve alcun accesso a tastiera, mouse o schermo.",
+  "portal.deny": "Nega",
+  "portal.alwaysAllow": "Consenti sempre",
+  "portal.allowOnce": "Consenti una volta"
+}

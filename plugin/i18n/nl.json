@@ -1,0 +1,8 @@
+{
+  "portal.title": "Toegang tot klembord",
+  "portal.wantsClipboard": "%1 wil het klembord gebruiken",
+  "portal.explanation": "De app kan tekst op het klembord zetten en lezen wat andere apps kopiëren. Er wordt geen toegang tot toetsenbord, muis of scherm gegeven.",
+  "portal.deny": "Weigeren",
+  "portal.alwaysAllow": "Altijd toestaan",
+  "portal.allowOnce": "Eenmalig toestaan"
+}

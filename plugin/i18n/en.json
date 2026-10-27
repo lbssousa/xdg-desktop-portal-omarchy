@@ -1,0 +1,8 @@
+{
+  "portal.title": "Clipboard access",
+  "portal.wantsClipboard": "%1 wants to use the clipboard",
+  "portal.explanation": "It will be able to put text on the clipboard and read what other apps copy. No access to the keyboard, mouse or screen is given.",
+  "portal.deny": "Deny",
+  "portal.alwaysAllow": "Always allow",
+  "portal.allowOnce": "Allow once"
+}

@@ -1,0 +1,8 @@
+{
+  "portal.title": "Åtkomst till urklipp",
+  "portal.wantsClipboard": "%1 vill använda urklippet",
+  "portal.explanation": "Appen kan lägga text i urklippet och läsa det som andra appar kopierar. Den får ingen åtkomst till tangentbord, mus eller skärm.",
+  "portal.deny": "Neka",
+  "portal.alwaysAllow": "Tillåt alltid",
+  "portal.allowOnce": "Tillåt en gång"
+}

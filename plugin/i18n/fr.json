@@ -1,0 +1,8 @@
+{
+  "portal.title": "Accès au presse-papiers",
+  "portal.wantsClipboard": "%1 veut utiliser le presse-papiers",
+  "portal.explanation": "L’application pourra mettre du texte dans le presse-papiers et lire ce que copient les autres applications. Aucun accès au clavier, à la souris ou à l’écran n’est accordé.",
+  "portal.deny": "Refuser",
+  "portal.alwaysAllow": "Toujours autoriser",
+  "portal.allowOnce": "Autoriser une fois"
+}

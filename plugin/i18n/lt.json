@@ -1,0 +1,8 @@
+{
+  "portal.title": "Prieiga prie iškarpinės",
+  "portal.wantsClipboard": "%1 nori naudoti iškarpinę",
+  "portal.explanation": "Programa galės dėti tekstą į iškarpinę ir skaityti, ką kopijuoja kitos programos. Prieiga prie klaviatūros, pelės ar ekrano nesuteikiama.",
+  "portal.deny": "Atmesti",
+  "portal.alwaysAllow": "Visada leisti",
+  "portal.allowOnce": "Leisti vieną kartą"
+}

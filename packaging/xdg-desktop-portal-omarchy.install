@@ -1,0 +1,17 @@
+post_install() {
+  cat <<'EOT'
+==> Route the portals to it, per user, in ~/.config/xdg-desktop-portal/hyprland-portals.conf
+    ([preferred] section; the file replaces the packaged one as a whole):
+      org.freedesktop.impl.portal.RemoteDesktop=omarchy
+      org.freedesktop.impl.portal.Clipboard=omarchy
+    then: systemctl --user restart xdg-desktop-portal
+==> And enable the dialog in the shell, per user:
+      ln -sfn /usr/share/xdg-desktop-portal-omarchy/plugin ~/.config/omarchy/plugins/lbssousa.portal
+      omarchy-shell shell enablePlugin lbssousa.portal '{}'
+EOT
+}
+
+post_upgrade() {
+  echo '==> Restart the shell (omarchy-restart-shell) to load the updated dialog,'
+  echo '    and the backend: systemctl --user restart xdg-desktop-portal-omarchy'
+}

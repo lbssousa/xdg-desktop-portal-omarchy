@@ -1,0 +1,8 @@
+{
+  "portal.title": "Acceso al portapapeles",
+  "portal.wantsClipboard": "%1 quiere usar el portapapeles",
+  "portal.explanation": "Podrá poner texto en el portapapeles y leer lo que copien otras apps. No se le da acceso al teclado, al mouse ni a la pantalla.",
+  "portal.deny": "Denegar",
+  "portal.alwaysAllow": "Permitir siempre",
+  "portal.allowOnce": "Permitir una vez"
+}

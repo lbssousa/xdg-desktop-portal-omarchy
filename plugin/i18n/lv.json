@@ -1,0 +1,8 @@
+{
+  "portal.title": "Piekļuve starpliktuvei",
+  "portal.wantsClipboard": "%1 vēlas izmantot starpliktuvi",
+  "portal.explanation": "Tā varēs ievietot tekstu starpliktuvē un lasīt, ko kopē citas lietotnes. Piekļuve tastatūrai, pelei vai ekrānam netiek piešķirta.",
+  "portal.deny": "Liegt",
+  "portal.alwaysAllow": "Vienmēr atļaut",
+  "portal.allowOnce": "Atļaut vienreiz"
+}

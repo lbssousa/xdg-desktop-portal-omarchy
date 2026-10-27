@@ -1,0 +1,8 @@
+{
+  "portal.title": "Acesso à área de transferência",
+  "portal.wantsClipboard": "%1 quer usar a área de transferência",
+  "portal.explanation": "Ele poderá colocar texto na área de transferência e ler o que outros apps copiam. Não recebe acesso ao teclado, ao mouse nem à tela.",
+  "portal.deny": "Negar",
+  "portal.alwaysAllow": "Sempre permitir",
+  "portal.allowOnce": "Permitir uma vez"
+}

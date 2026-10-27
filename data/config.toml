@@ -1,0 +1,6 @@
+# /etc/xdg/xdg-desktop-portal-omarchy/config.toml
+
+# Apps whose clipboard content is a password: their selections also offer
+# x-kde-passwordManagerHint ("secret"), which clipboard histories skip
+# (Omarchy's, KDE's, cliphist via wl-paste --watch).
+sensitive_apps = ["com.bitwarden.desktop"]

@@ -1,0 +1,8 @@
+{
+  "portal.title": "Leikepöydän käyttö",
+  "portal.wantsClipboard": "%1 haluaa käyttää leikepöytää",
+  "portal.explanation": "Se voi lisätä tekstiä leikepöydälle ja lukea, mitä muut sovellukset kopioivat. Pääsyä näppäimistöön, hiireen tai näyttöön ei anneta.",
+  "portal.deny": "Estä",
+  "portal.alwaysAllow": "Salli aina",
+  "portal.allowOnce": "Salli kerran"
+}

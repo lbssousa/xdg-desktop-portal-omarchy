@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "lbssousa.portal",
+  "name": "Portal",
+  "version": "0.1.0",
+  "author": "Laércio de Sousa",
+  "description": "Asks before a sandboxed app gets the clipboard through xdg-desktop-portal-omarchy, styled like the polkit agent.",
+  "kinds": [
+    "service"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "PortalService.qml"
+  }
+}

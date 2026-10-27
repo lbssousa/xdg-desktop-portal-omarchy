@@ -1,0 +1,8 @@
+{
+  "portal.title": "Adgang til udklipsholderen",
+  "portal.wantsClipboard": "%1 vil bruge udklipsholderen",
+  "portal.explanation": "Den vil kunne lægge tekst i udklipsholderen og læse, hvad andre apps kopierer. Den får ikke adgang til tastatur, mus eller skærm.",
+  "portal.deny": "Afvis",
+  "portal.alwaysAllow": "Tillad altid",
+  "portal.allowOnce": "Tillad én gang"
+}

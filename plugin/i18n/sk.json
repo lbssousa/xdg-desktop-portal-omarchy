@@ -1,0 +1,8 @@
+{
+  "portal.title": "Prístup k schránke",
+  "portal.wantsClipboard": "%1 chce používať schránku",
+  "portal.explanation": "Bude môcť vkladať text do schránky a čítať, čo kopírujú iné aplikácie. Nezíska prístup ku klávesnici, myši ani obrazovke.",
+  "portal.deny": "Zamietnuť",
+  "portal.alwaysAllow": "Vždy povoliť",
+  "portal.allowOnce": "Povoliť raz"
+}

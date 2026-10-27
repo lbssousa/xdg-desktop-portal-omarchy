@@ -1,0 +1,31 @@
+[package]
+name = "xdg-desktop-portal-omarchy"
+version = "0.1.0"
+edition = "2024"
+description = "xdg-desktop-portal backend for Omarchy: the clipboard, through RemoteDesktop sessions, for sandboxed apps on Hyprland"
+license = "MIT"
+authors = ["Laércio de Sousa <laercio@sivali.sousa.nom.br>"]
+publish = false
+
+[dependencies]
+nix = { version = "0.31.3", features = ["fs", "mman", "process", "socket", "user"] }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+tokio = { version = "1.54.1", features = ["rt", "macros", "sync"] }
+toml = "1.1.8"
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3.23", features = ["env-filter"] }
+wayland-client = "0.31.15"
+wayland-protocols = { version = "0.32.13", features = ["client", "staging"] }
+zbus = { version = "5", default-features = false, features = ["tokio"] }
+zeroize = "1.9.1"
+
+[dev-dependencies]
+futures-util = "0.3.34"
+tempfile = "3.27.0"
+tokio = { version = "1.54.1", features = ["rt", "macros", "time"] }
+
+[profile.release]
+lto = true
+strip = true
+panic = "abort"

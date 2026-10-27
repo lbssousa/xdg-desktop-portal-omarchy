@@ -1,0 +1,8 @@
+{
+  "portal.title": "Zugriff auf die Zwischenablage",
+  "portal.wantsClipboard": "%1 möchte die Zwischenablage verwenden",
+  "portal.explanation": "Die App kann Text in die Zwischenablage legen und lesen, was andere Apps kopieren. Zugriff auf Tastatur, Maus oder Bildschirm erhält sie nicht.",
+  "portal.deny": "Ablehnen",
+  "portal.alwaysAllow": "Immer erlauben",
+  "portal.allowOnce": "Einmal erlauben"
+}

@@ -1,0 +1,8 @@
+{
+  "portal.title": "剪贴板访问",
+  "portal.wantsClipboard": "%1 想要使用剪贴板",
+  "portal.explanation": "它将能够把文本放入剪贴板，并读取其他应用复制的内容。不会获得键盘、鼠标或屏幕的访问权限。",
+  "portal.deny": "拒绝",
+  "portal.alwaysAllow": "始终允许",
+  "portal.allowOnce": "允许一次"
+}

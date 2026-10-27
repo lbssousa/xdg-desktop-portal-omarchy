@@ -1,0 +1,25 @@
+# cargo-deny configuration (https://embarkstudios.github.io/cargo-deny/).
+# Runs in CI (.github/workflows/cargo-deny.yml) and locally with
+# `cargo deny check`.
+
+[graph]
+targets = ["x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"]
+
+[advisories]
+# Every RustSec advisory (vulnerability, unmaintained, unsound, yanked)
+# fails the check unless listed here with a reason.
+yanked = "deny"
+ignore = []
+
+[licenses]
+allow = ["MIT", "Apache-2.0", "Unicode-3.0"]
+confidence-threshold = 0.9
+
+[bans]
+multiple-versions = "warn"
+wildcards = "deny"
+
+[sources]
+unknown-registry = "deny"
+unknown-git = "deny"
+allow-registry = ["https://github.com/rust-lang/crates.io-index"]

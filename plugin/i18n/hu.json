@@ -1,0 +1,8 @@
+{
+  "portal.title": "Hozzáférés a vágólaphoz",
+  "portal.wantsClipboard": "A(z) %1 használni szeretné a vágólapot",
+  "portal.explanation": "Szöveget tehet a vágólapra, és olvashatja, amit más alkalmazások másolnak. A billentyűzethez, az egérhez és a képernyőhöz nem kap hozzáférést.",
+  "portal.deny": "Elutasítás",
+  "portal.alwaysAllow": "Mindig engedélyezve",
+  "portal.allowOnce": "Engedélyezés egyszer"
+}

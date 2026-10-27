@@ -1,0 +1,8 @@
+{
+  "portal.title": "גישה ללוח",
+  "portal.wantsClipboard": "%1 מבקש להשתמש בלוח",
+  "portal.explanation": "היישום יוכל להעתיק טקסט ללוח ולקרוא את מה שיישומים אחרים מעתיקים. לא תינתן גישה למקלדת, לעכבר או למסך.",
+  "portal.deny": "דחייה",
+  "portal.alwaysAllow": "לאפשר תמיד",
+  "portal.allowOnce": "לאפשר פעם אחת"
+}

@@ -1,0 +1,8 @@
+{
+  "portal.title": "Quyền truy cập bảng nhớ tạm",
+  "portal.wantsClipboard": "%1 muốn sử dụng bảng nhớ tạm",
+  "portal.explanation": "Ứng dụng sẽ có thể đặt văn bản vào bảng nhớ tạm và đọc những gì ứng dụng khác sao chép. Không được cấp quyền truy cập bàn phím, chuột hay màn hình.",
+  "portal.deny": "Từ chối",
+  "portal.alwaysAllow": "Luôn cho phép",
+  "portal.allowOnce": "Cho phép một lần"
+}

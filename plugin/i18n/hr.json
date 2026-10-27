@@ -1,0 +1,8 @@
+{
+  "portal.title": "Pristup međuspremniku",
+  "portal.wantsClipboard": "%1 želi koristiti međuspremnik",
+  "portal.explanation": "Moći će stavljati tekst u međuspremnik i čitati što druge aplikacije kopiraju. Ne dobiva pristup tipkovnici, mišu ni zaslonu.",
+  "portal.deny": "Odbij",
+  "portal.alwaysAllow": "Uvijek dopusti",
+  "portal.allowOnce": "Dopusti jednom"
+}

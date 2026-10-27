@@ -1,0 +1,8 @@
+{
+  "portal.title": "Access sa clipboard",
+  "portal.wantsClipboard": "Gustong gamitin ng %1 ang clipboard",
+  "portal.explanation": "Makakapaglagay ito ng text sa clipboard at mababasa nito ang kinokopya ng ibang app. Walang ibinibigay na access sa keyboard, mouse o screen.",
+  "portal.deny": "Tanggihan",
+  "portal.alwaysAllow": "Laging payagan",
+  "portal.allowOnce": "Payagan nang isang beses"
+}

@@ -1,0 +1,8 @@
+{
+  "portal.title": "Buferga ruxsat",
+  "portal.wantsClipboard": "%1 buferdan foydalanmoqchi",
+  "portal.explanation": "U buferga matn qoʻya oladi va boshqa ilovalar nusxalagan narsalarni oʻqiy oladi. Klaviatura, sichqoncha yoki ekranga ruxsat berilmaydi.",
+  "portal.deny": "Rad etish",
+  "portal.alwaysAllow": "Doim ruxsat berish",
+  "portal.allowOnce": "Bir marta ruxsat berish"
+}

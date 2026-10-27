@@ -1,0 +1,8 @@
+{
+  "portal.title": "Akses papan klip",
+  "portal.wantsClipboard": "%1 ingin menggunakan papan klip",
+  "portal.explanation": "Aplikasi ini dapat menaruh teks di papan klip dan membaca apa yang disalin aplikasi lain. Tidak ada akses ke keyboard, mouse, atau layar yang diberikan.",
+  "portal.deny": "Tolak",
+  "portal.alwaysAllow": "Selalu izinkan",
+  "portal.allowOnce": "Izinkan sekali"
+}

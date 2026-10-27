@@ -1,0 +1,8 @@
+{
+  "portal.title": "クリップボードへのアクセス",
+  "portal.wantsClipboard": "%1 がクリップボードの使用を求めています",
+  "portal.explanation": "クリップボードにテキストを置いたり、ほかのアプリがコピーした内容を読み取ったりできるようになります。キーボード、マウス、画面へのアクセスは許可されません。",
+  "portal.deny": "拒否",
+  "portal.alwaysAllow": "常に許可",
+  "portal.allowOnce": "今回のみ許可"
+}
