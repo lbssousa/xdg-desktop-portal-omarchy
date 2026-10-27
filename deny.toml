@@ -9,7 +9,16 @@ targets = ["x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"]
 # Every RustSec advisory (vulnerability, unmaintained, unsound, yanked)
 # fails the check unless listed here with a reason.
 yanked = "deny"
-ignore = []
+ignore = [
+    # zbus 6 absorbed zvariant (as zbus::wire), zvariant_derive and
+    # zbus_names, so the standalone crates zbus 5 depends on are no longer
+    # maintained. Unmaintained, not vulnerable: kept until zbus 6, released
+    # in October 2026 with many breaking changes, has settled; then migrate
+    # and drop these.
+    { id = "RUSTSEC-2026-0370", reason = "zvariant: merged into zbus 6; zbus 5 still depends on it" },
+    { id = "RUSTSEC-2026-0371", reason = "zbus_names: merged into zbus 6; zbus 5 still depends on it" },
+    { id = "RUSTSEC-2026-0372", reason = "zvariant_derive: merged into zbus 6; zbus 5 still depends on it" },
+]
 
 [licenses]
 allow = ["MIT", "Apache-2.0", "Unicode-3.0"]
